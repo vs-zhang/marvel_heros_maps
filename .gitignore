@@ -1,1 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
+backend/.idea
+backend/venv
+frontend/.idea
+frontend/node_modules
