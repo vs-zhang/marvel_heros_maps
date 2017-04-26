@@ -20,4 +20,4 @@ $ python main.py
 3. go to browser 'http://localhost:5001/#/'
 
 ## Example
-![alt text](https://raw.githubusercontent.com/vs-zhang/marvel_heros_maps/master/example.png)
+![alt text](https://raw.githubusercontent.com/vs-zhang/marvel_heros_maps/master/screenshot.png)
