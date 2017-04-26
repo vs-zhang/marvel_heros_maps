@@ -1,0 +1,109 @@
+/**
+ * http://applemusic.tumblr.com/
+ * https://jsfiddle.net/xq56dmrh/
+ */
+
+/** Ultra Light */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: 'San Francisco', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.hero-card {
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    background: #F1F1F1;
+    text-align: center;
+}
+
+.hero-card p{
+    margin: 0;
+}
+
+.hero-card .hero-card__name {
+    font-weight: 600;
+}
+
+.search-container {
+    margin: 10px;
+}
+
+.search-desc {
+    margin: 10px;
+}
+
+.search-input {
+    min-width: 200px;
+    height: 25px;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: #106CC8;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.radius-select-container {
+    margin-top: 10px;
+}
+
+.radius-select {
+    width: 140px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.hero-card__thumbnail {
+    width: 150px;
+    border-radius: 50%;
+}

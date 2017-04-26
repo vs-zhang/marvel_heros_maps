@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "import/prefer-default-export": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": false }]
+  }
+}
